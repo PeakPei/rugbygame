@@ -22,8 +22,16 @@
 		55575323189D2D5D0079A1C0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55575322189D2D5D0079A1C0 /* XCTest.framework */; };
 		55575324189D2D5D0079A1C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 555752FC189D2D5D0079A1C0 /* Foundation.framework */; };
 		55575325189D2D5D0079A1C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55575300189D2D5D0079A1C0 /* UIKit.framework */; };
-		5557532D189D2D5D0079A1C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5557532B189D2D5D0079A1C0 /* InfoPlist.strings */; };
-		5557532F189D2D5D0079A1C0 /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5557532E189D2D5D0079A1C0 /* testTests.m */; };
+		5557533C189D30BC0079A1C0 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = 55575339189D30BC0079A1C0 /* background-music-aac.caf */; };
+		5557533D189D30BC0079A1C0 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = 5557533A189D30BC0079A1C0 /* pew-pew-lei.caf */; };
+		5557533E189D30BC0079A1C0 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 5557533B189D30BC0079A1C0 /* sprites.atlas */; };
+		55575340189D59A70079A1C0 /* rugbyman.png in Resources */ = {isa = PBXBuildFile; fileRef = 5557533F189D59A70079A1C0 /* rugbyman.png */; };
+		55575342189D5AD50079A1C0 /* rugbyman2.png in Resources */ = {isa = PBXBuildFile; fileRef = 55575341189D5AD50079A1C0 /* rugbyman2.png */; };
+		55575344189D5BF70079A1C0 /* grass 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 55575343189D5BF60079A1C0 /* grass 2.png */; };
+		55575346189D5EB20079A1C0 /* grass.png in Resources */ = {isa = PBXBuildFile; fileRef = 55575345189D5EB20079A1C0 /* grass.png */; };
+		55575349189D61030079A1C0 /* grass3.png in Resources */ = {isa = PBXBuildFile; fileRef = 55575347189D61030079A1C0 /* grass3.png */; };
+		5557534A189D61030079A1C0 /* grass3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55575348189D61030079A1C0 /* grass3@2x.png */; };
+		5557535A189D6FE10079A1C0 /* rugbyball.png in Resources */ = {isa = PBXBuildFile; fileRef = 55575359189D6FE10079A1C0 /* rugbyball.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,9 +65,16 @@
 		5557531B189D2D5D0079A1C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		55575321189D2D5D0079A1C0 /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55575322189D2D5D0079A1C0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		5557532A189D2D5D0079A1C0 /* testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testTests-Info.plist"; sourceTree = "<group>"; };
-		5557532C189D2D5D0079A1C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5557532E189D2D5D0079A1C0 /* testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTests.m; sourceTree = "<group>"; };
+		55575339189D30BC0079A1C0 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		5557533A189D30BC0079A1C0 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
+		5557533B189D30BC0079A1C0 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
+		5557533F189D59A70079A1C0 /* rugbyman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rugbyman.png; sourceTree = "<group>"; };
+		55575341189D5AD50079A1C0 /* rugbyman2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rugbyman2.png; sourceTree = "<group>"; };
+		55575343189D5BF60079A1C0 /* grass 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grass 2.png"; sourceTree = "<group>"; };
+		55575345189D5EB20079A1C0 /* grass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grass.png; sourceTree = "<group>"; };
+		55575347189D61030079A1C0 /* grass3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grass3.png; sourceTree = "<group>"; };
+		55575348189D61030079A1C0 /* grass3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grass3@2x.png"; sourceTree = "<group>"; };
+		55575359189D6FE10079A1C0 /* rugbyball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rugbyball.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,8 +105,16 @@
 		555752F0189D2D5D0079A1C0 = {
 			isa = PBXGroup;
 			children = (
+				55575359189D6FE10079A1C0 /* rugbyball.png */,
+				55575347189D61030079A1C0 /* grass3.png */,
+				55575348189D61030079A1C0 /* grass3@2x.png */,
+				55575345189D5EB20079A1C0 /* grass.png */,
+				55575343189D5BF60079A1C0 /* grass 2.png */,
+				55575341189D5AD50079A1C0 /* rugbyman2.png */,
+				5557533F189D59A70079A1C0 /* rugbyman.png */,
+				55575338189D30BC0079A1C0 /* Sounds */,
+				5557533B189D30BC0079A1C0 /* sprites.atlas */,
 				55575304189D2D5D0079A1C0 /* test */,
-				55575328189D2D5D0079A1C0 /* testTests */,
 				555752FB189D2D5D0079A1C0 /* Frameworks */,
 				555752FA189D2D5D0079A1C0 /* Products */,
 			);
@@ -146,22 +169,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		55575328189D2D5D0079A1C0 /* testTests */ = {
+		55575338189D30BC0079A1C0 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				5557532E189D2D5D0079A1C0 /* testTests.m */,
-				55575329189D2D5D0079A1C0 /* Supporting Files */,
+				55575339189D30BC0079A1C0 /* background-music-aac.caf */,
+				5557533A189D30BC0079A1C0 /* pew-pew-lei.caf */,
 			);
-			path = testTests;
-			sourceTree = "<group>";
-		};
-		55575329189D2D5D0079A1C0 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				5557532A189D2D5D0079A1C0 /* testTests-Info.plist */,
-				5557532B189D2D5D0079A1C0 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,10 +254,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5557533E189D30BC0079A1C0 /* sprites.atlas in Resources */,
+				5557533C189D30BC0079A1C0 /* background-music-aac.caf in Resources */,
+				55575344189D5BF70079A1C0 /* grass 2.png in Resources */,
+				55575346189D5EB20079A1C0 /* grass.png in Resources */,
+				55575349189D61030079A1C0 /* grass3.png in Resources */,
 				55575309189D2D5D0079A1C0 /* InfoPlist.strings in Resources */,
 				5557531C189D2D5D0079A1C0 /* Images.xcassets in Resources */,
 				5557531A189D2D5D0079A1C0 /* Spaceship.png in Resources */,
 				55575312189D2D5D0079A1C0 /* Main.storyboard in Resources */,
+				55575342189D5AD50079A1C0 /* rugbyman2.png in Resources */,
+				5557535A189D6FE10079A1C0 /* rugbyball.png in Resources */,
+				5557533D189D30BC0079A1C0 /* pew-pew-lei.caf in Resources */,
+				5557534A189D61030079A1C0 /* grass3@2x.png in Resources */,
+				55575340189D59A70079A1C0 /* rugbyman.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +275,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5557532D189D2D5D0079A1C0 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +296,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5557532F189D2D5D0079A1C0 /* testTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,14 +324,6 @@
 				55575311189D2D5D0079A1C0 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5557532B189D2D5D0079A1C0 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5557532C189D2D5D0079A1C0 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
